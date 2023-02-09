@@ -1,23 +1,16 @@
 {
-    "name": "jhnbrn90/socialite-passport",
+    "name": "MaxLogic88/my-socialite-passport",
     "description": "Easy socialite authentication using Laravel passport identity provider.",
     "keywords": [
-        "jhnbrn90",
         "socialite",
         "passport",
         "multi-authentication",
         "single sign on",
         "SSO"
     ],
-    "homepage": "https://github.com/jhnbrn90/socialite-passport",
+    "homepage": "https://github.com/MaxLogic88/socialite-passport",
     "license": "MIT",
     "type": "library",
-    "authors": [
-        {
-            "name": "John Braun",
-            "email": "johnbraun@pm.me"
-        }
-    ],
     "require": {
         "php": "^7.2|^8.0",
         "illuminate/support": "~6|~7",
@@ -31,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "JhnBrn90\\SocialitePassport\\": "src"
+            "MaxLogic88\\SocialitePassport\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JhnBrn90\\SocialitePassport\\Tests\\": "tests"
+            "MaxLogic88\\SocialitePassport\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JhnBrn90\\SocialitePassport\\SocialitePassportServiceProvider"
+                "MaxLogic88\\SocialitePassport\\SocialitePassportServiceProvider"
             ]
         }
     }
