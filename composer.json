@@ -1,5 +1,5 @@
 {
-    "name": "MaxLogic88/my-socialite-passport",
+    "name": "max-logic88/my-socialite-passport",
     "description": "Easy socialite authentication using Laravel passport identity provider.",
     "keywords": [
         "socialite",
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MaxLogic88\\SocialitePassport\\": "src"
+            "max-logic88\\SocialitePassport\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MaxLogic88\\SocialitePassport\\Tests\\": "tests"
+            "max-logic88\\SocialitePassport\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MaxLogic88\\SocialitePassport\\SocialitePassportServiceProvider"
+                "max-logic88\\SocialitePassport\\SocialitePassportServiceProvider"
             ]
         }
     }
